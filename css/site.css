@@ -176,33 +176,41 @@ header#page-header .logo-container img {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/site\.sass}line{font-family:\0000370}}
 input[type=text] {
   border: 0;
-  border-bottom: 2px solid #414141;
+  border-bottom: 1px solid #878787;
   height: 22px;
   padding: 2px;
   font-size: 18px;
   margin-bottom: 12px;
+  background-color: #f3f3f3;
+  font-family: Handlee, sans-serif;
+  color: #4d4d4d;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/site\.sass}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/site\.sass}line{font-family:\0000380}}
+input[type=text]:focus {
+  outline: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/site\.sass}line{font-family:\0000383}}
 span.blank {
   display: inline-block;
   min-width: 40px;
   border-bottom: 1px solid white;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/site\.sass}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/site\.sass}line{font-family:\0000388}}
 .link-thinkful {
   color: #f38b4c;
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/site\.sass}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/site\.sass}line{font-family:\0000392}}
 footer#page-footer {
   background-color: #c4d6ec;
   padding-top: 24px;
   padding-bottom: 24px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/site\.sass}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/site\.sass}line{font-family:\0000396}}
 footer#page-footer p {
   font-size: 14px;
   padding-bottom: 8px;
