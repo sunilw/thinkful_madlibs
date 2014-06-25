@@ -1,0 +1,98 @@
+@import "compass/reset"
+@import "bourbon/bourbon"
+@import "neat/neat"
+
+body
+  position: relative
+  height: 100%
+  background-color: #FFF
+  background-image: url('../img/skulls/skulls.png')
+  p 
+    line-height: 2
+    font-size: 20px
+    
+h1, h2, h3, h4
+  font-family: Handlee, sans-serif
+  color: #4d4d4d
+  padding-bottom: 24px
+  font-weight: normal
+
+h1
+  font-size: 28px  
+
+h2
+  font-size: 20px
+  
+p
+  font-family: Handlee, sans-serif 
+  color: #4d4d4d
+  padding-bottom: 24px
+  font-size: 18px
+  
+.inner-row
+  @include outer-container()
+  padding-left: 4%
+  padding-right: 4%
+  max-width: 1000px
+ 
+#outer-wrapper
+  position: relative
+  width: 96%
+  max-width: 1000px
+  margin-top: 24px  
+  margin-bottom: 24px
+  margin-left: auto
+  margin-right: auto
+  background-color: #e8e8e8
+  border-radius: 3px
+  border: 1px solid #d2d2d2
+  
+header#page-header
+  background-color: #FFF
+  padding-top: 24px
+  margin-bottom: 24px
+  text-align: center
+  .smiley-container
+    height: 80px
+    display: block
+    padding-top: 12px
+    padding-bottom: 12px
+    overflow: hidden
+    img
+      height: 56px
+      margin-bottom: 12px
+  .logo-container
+    width: 100%
+    img
+      max-width: 90%
+      padding-bottom: 12px
+        
+input[type=text]
+  border: 0
+  border-bottom: 2px solid #414141
+  height: 22px
+  padding: 2px
+  font-size: 18px
+  margin-bottom: 12px
+  
+
+span.blank
+  display: inline-block
+  min-width: 100px
+  border-bottom: 1px solid #FFF
+  
+/*****************************************************/
+/*   media query extentions begin below...           */
+/*****************************************************/
+
+/*****************************************************/
+/* Detect tablet size and include appropriate styles */
+/*****************************************************/
+@media all and (min-width: 768px) 
+  @import "tablet"
+
+/*****************************************************/
+/* Detect tablet size and include appropriate styles */
+/*****************************************************/
+@media all and (min-width: 960px) 
+  @import "desktop"

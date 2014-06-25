@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en"  ng-app="">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>madlibs</title>
+    <link rel="stylesheet" type="text/css"  href="/css/site.css" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="bower_components/jquery2/dist/jquery.js"></script>
+    <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="/js/site.js"></script>    
+  </head>
+  <body>
+    <div id="outer-wrapper">
+
+      <section id="main-content">
+        <header id="page-header">
+          <div class="inner-row">
+            <div class="smiley-container">
+	      <img src="img/mad-lib-happy-face.png" alt="smiley greeting"/>
+	    </div>
+            <div class="logo-container">
+	      <img src="img/ng-mad-libs-logo.png" alt="logo"/>
+	    </div>
+	  </div>
+        </header>  <!-- page-header ends -->
+
+        <section id="definitions">
+        <div class="inner-row">
+	  <h2>Provide the following...</h2>
+	<p>
+	  <input placeholder="female name"  type="text" ng-model="madlibs.femalename"/>
+          <input  placeholder="dirty task" type="text"/>
+          <input  placeholder="obnoxious celebrity" type="text"/>
+          <input  placeholder="job title" type="text"/>
+          <input  placeholder="celebrity" type="text"/>
+          <input placeholder="huge number" type="text"/>
+          <input placeholder="tedious task" type="text"/>
+          <input placeholder="useless skill" type="text"/>
+          <input placeholder="adjective" type="text"/>
+	</p>
+	</div> <!-- ENDS .inner-row -->
+	</section>
+
+        <section id="story">
+          <div class="inner-row">
+	    <p>
+	      <span class="blank">{{madlibs.femalename}}</span> was a  <span class="blank">{{madlibs.jobtitle}}</span> who loved
+	      technology. Although she loved parts of her job, she absolutely hated  <span class="blank">{{madlibs.tedioustask}}</span>
+	      and  <span class="blank">{{madlibs.dirtytask}}</span>.  So  <span class="blank">{{madlibs.femalename}}</span> met with
+	      her life mentor  <span class="blank">{{celebrity}}</span> who told her to learn how to <span>{{madlibs.uselessskill}}</span>
+	      with <a href="http://thinkful.com" class="link-thinkful">Thinkful</a> .
+	    </p>
+	    <p>
+	      <a href="http://thinkful.com" class="link-thinkful">Thinkful</a> didn't offer  a course on
+	      <span class="blank">{{madlibs.uselessskill}}</span> so she studied programming instead.	      
+	    </p>
+	    <p>
+	      What a great decision! With her new skills  <span class="blank">{{madlibs.femalename}}</span> built a
+	      <span class="blank">{{madlibs.adjective}}</span> robot named  <span class="blank">{{madlibs.obnoxiouscelebrity}}</span>
+	      that only not only loved  <span class="blank">{{madlibs.dirtytask}}</span> but did it
+	      <span class="blank">{{madlibs.hugenumber}}</span> times faster.
+	    </p>
+	  </div>
+        </section><!-- ENDS #story -->
+	
+      </section>  <!-- main-content ends -->
+
+      <footer id="page-footer">
+        <div class="inner-row">
+	</div>
+      </footer>
+
+    </div>  <!-- outer-wrapper ends -->
+  </body>
+</html>
