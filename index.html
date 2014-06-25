@@ -32,14 +32,14 @@
 	  <h2>Provide the following...</h2>
 	<p>
 	  <input placeholder="female name"  type="text" ng-model="madlibs.femalename"/>
-          <input  placeholder="dirty task" type="text"/>
-          <input  placeholder="obnoxious celebrity" type="text"/>
-          <input  placeholder="job title" type="text"/>
-          <input  placeholder="celebrity" type="text"/>
-          <input placeholder="huge number" type="text"/>
-          <input placeholder="tedious task" type="text"/>
-          <input placeholder="useless skill" type="text"/>
-          <input placeholder="adjective" type="text"/>
+	  <input  placeholder="job title" type="text" ng-model="madlibs.jobtitle" />
+	  <input placeholder="tedious task" type="text" ng-model="madlibs.tedioustask" />
+          <input  placeholder="dirty task" type="text"  ng-model="madlibs.dirtytask""/>
+          <input placeholder="useless skill" type="text" ng-model="madlibs.uselessskill" />
+          <input  placeholder="obnoxious celebrity" type="text"  ng-model="madlibs.obnoxiouscelebrity""/>
+          <input  placeholder="celebrity" type="text"  ng-model="madlibs.celebrity" />
+          <input placeholder="huge number" type="text" ng-model="madlibs.hugenumber" />
+          <input placeholder="adjective" type="text" ng-model="madlibs.adjective" />
 	</p>
 	</div> <!-- ENDS .inner-row -->
 	</section>
@@ -51,10 +51,10 @@
 	      technology. Although she loved parts of her job, she absolutely hated  <span class="blank">{{madlibs.tedioustask}}</span>
 	      and  <span class="blank">{{madlibs.dirtytask}}</span>.  So  <span class="blank">{{madlibs.femalename}}</span> met with
 	      her life mentor  <span class="blank">{{celebrity}}</span> who told her to learn how to <span>{{madlibs.uselessskill}}</span>
-	      with <a href="http://thinkful.com" class="link-thinkful">Thinkful</a> .
+	      with <a href="http://thinkful.com" class="link-thinkful" target="_blank">Thinkful</a> .
 	    </p>
 	    <p>
-	      <a href="http://thinkful.com" class="link-thinkful">Thinkful</a> didn't offer  a course on
+	      <a href="http://thinkful.com" class="link-thinkful" target="_blank">Thinkful</a> didn't offer  a course on
 	      <span class="blank">{{madlibs.uselessskill}}</span> so she studied programming instead.	      
 	    </p>
 	    <p>
@@ -70,6 +70,11 @@
 
       <footer id="page-footer">
         <div class="inner-row">
+	  <p>
+	    This experiment has been done as an assignment as part of the
+	    <a href="http://thinkful.com" target="_blank">thinkful</a> angular course.
+	  </p>
+	  <p><a href="http://sunil.co.nz">By Sunil Williams</a></p>
 	</div>
       </footer>
 

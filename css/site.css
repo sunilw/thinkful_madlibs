@@ -63,27 +63,27 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/madlibs\/sass\/neat\/grid\/_grid\.scss}line{font-family:\000032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/neat\/grid\/_grid\.scss}line{font-family:\000032}}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/madlibs\/sass\/site\.sass}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/site\.sass}line{font-family:\000035}}
 body {
   position: relative;
   height: 100%;
   background-color: white;
   background-image: url("../img/skulls/skulls.png");
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/madlibs\/sass\/site\.sass}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/site\.sass}line{font-family:\0000310}}
 body p {
   line-height: 2;
   font-size: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/madlibs\/sass\/site\.sass}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/site\.sass}line{font-family:\0000314}}
 h1, h2, h3, h4 {
   font-family: Handlee, sans-serif;
   color: #4d4d4d;
@@ -91,17 +91,17 @@ h1, h2, h3, h4 {
   font-weight: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/madlibs\/sass\/site\.sass}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/site\.sass}line{font-family:\0000320}}
 h1 {
   font-size: 28px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/madlibs\/sass\/site\.sass}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/site\.sass}line{font-family:\0000323}}
 h2 {
   font-size: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/madlibs\/sass\/site\.sass}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/site\.sass}line{font-family:\0000326}}
 p {
   font-family: Handlee, sans-serif;
   color: #4d4d4d;
@@ -109,7 +109,7 @@ p {
   font-size: 18px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/madlibs\/sass\/site\.sass}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/site\.sass}line{font-family:\0000332}}
 .inner-row {
   *zoom: 1;
   max-width: 68em;
@@ -119,17 +119,17 @@ p {
   padding-right: 4%;
   max-width: 1000px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/madlibs\/sass\/bourbon\/addons\/_clearfix\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/bourbon\/addons\/_clearfix\.scss}line{font-family:\0000318}}
 .inner-row:before, .inner-row:after {
   content: " ";
   display: table;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/madlibs\/sass\/bourbon\/addons\/_clearfix\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/bourbon\/addons\/_clearfix\.scss}line{font-family:\0000323}}
 .inner-row:after {
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/madlibs\/sass\/site\.sass}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/site\.sass}line{font-family:\0000338}}
 #outer-wrapper {
   position: relative;
   width: 96%;
@@ -143,14 +143,14 @@ p {
   border: 1px solid #d2d2d2;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/madlibs\/sass\/site\.sass}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/site\.sass}line{font-family:\0000350}}
 header#page-header {
   background-color: white;
   padding-top: 24px;
   margin-bottom: 24px;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/madlibs\/sass\/site\.sass}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/site\.sass}line{font-family:\0000355}}
 header#page-header .smiley-container {
   height: 80px;
   display: block;
@@ -158,22 +158,22 @@ header#page-header .smiley-container {
   padding-bottom: 12px;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/madlibs\/sass\/site\.sass}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/site\.sass}line{font-family:\0000361}}
 header#page-header .smiley-container img {
   height: 56px;
   margin-bottom: 12px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/madlibs\/sass\/site\.sass}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/site\.sass}line{font-family:\0000364}}
 header#page-header .logo-container {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/madlibs\/sass\/site\.sass}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/site\.sass}line{font-family:\0000366}}
 header#page-header .logo-container img {
   max-width: 90%;
   padding-bottom: 12px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/madlibs\/sass\/site\.sass}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/site\.sass}line{font-family:\0000370}}
 input[type=text] {
   border: 0;
   border-bottom: 2px solid #414141;
@@ -183,11 +183,29 @@ input[type=text] {
   margin-bottom: 12px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/madlibs\/sass\/site\.sass}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/site\.sass}line{font-family:\0000379}}
 span.blank {
   display: inline-block;
-  min-width: 100px;
+  min-width: 40px;
   border-bottom: 1px solid white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/site\.sass}line{font-family:\0000384}}
+.link-thinkful {
+  color: #f38b4c;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/site\.sass}line{font-family:\0000388}}
+footer#page-footer {
+  background-color: #c4d6ec;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/site\.sass}line{font-family:\0000392}}
+footer#page-footer p {
+  font-size: 14px;
+  padding-bottom: 8px;
 }
 
 /*************************************************** */
@@ -198,6 +216,49 @@ span.blank {
 /*************************************************** */
 @media all and (min-width: 768px) {
   /* styles for tablet and larger  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/_tablet\.sass}line{font-family:\000033}}
+  header#page-header {
+    *zoom: 1;
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/bourbon\/addons\/_clearfix\.scss}line{font-family:\0000318}}
+  header#page-header:before, header#page-header:after {
+    content: " ";
+    display: table;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/bourbon\/addons\/_clearfix\.scss}line{font-family:\0000323}}
+  header#page-header:after {
+    clear: both;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/_tablet\.sass}line{font-family:\000035}}
+  header#page-header .smiley-container {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 14.70196%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/neat\/grid\/_span-columns\.scss}line{font-family:\0000340}}
+  header#page-header .smiley-container:last-child {
+    margin-right: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/_tablet\.sass}line{font-family:\000037}}
+  header#page-header .logo-container {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 82.94039%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/neat\/grid\/_span-columns\.scss}line{font-family:\0000340}}
+  header#page-header .logo-container:last-child {
+    margin-right: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mantis\/wa\/thinkful_angular\/thinkful_madlibs\/sass\/_tablet\.sass}line{font-family:\000039}}
+  header#page-header .logo-container img {
+    height: 100px;
+    float: left;
+  }
 }
 /*************************************************** */
 /* Detect tablet size and include appropriate styles */
