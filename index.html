@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en"  ng-app="">
+<!DOCTYPE html ng-app="swmadlibs">
+<html lang="en"  ng-app="swmadlibs">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
@@ -10,11 +10,10 @@
     <link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="bower_components/jquery2/dist/jquery.js"></script>
     <script type="text/javascript" src="bower_components/angular/angular.js"></script>
-    <script type="text/javascript" src="js/site.js"></script>    
+    <script type="text/javascript" src="../js/sw-madlibs.js"></script>    
   </head>
-  <body>
-    <div id="outer-wrapper">
-
+  <body>    
+    <section id="outer-wrapper" >
       <section id="main-content">
         <header id="page-header">
           <div class="inner-row">
@@ -31,43 +30,43 @@
         <div class="inner-row">
 	  <h2>Provide the following...</h2>
 	<p>
-	  <input placeholder="female name"  type="text" ng-model="madlibs.femalename"/>
-	  <input  placeholder="job title" type="text" ng-model="madlibs.jobtitle" />
-	  <input placeholder="tedious task" type="text" ng-model="madlibs.tedioustask" />
-          <input  placeholder="dirty task" type="text"  ng-model="madlibs.dirtytask""/>
-          <input placeholder="useless skill" type="text" ng-model="madlibs.uselessskill" />
-          <input  placeholder="obnoxious celebrity" type="text"  ng-model="madlibs.obnoxiouscelebrity""/>
-          <input  placeholder="celebrity" type="text"  ng-model="madlibs.celebrity" />
-          <input placeholder="huge number" type="text" ng-model="madlibs.hugenumber" />
-          <input placeholder="adjective" type="text" ng-model="madlibs.adjective" />
+	  <input placeholder="female name"  type="text" ng-model="femalename"/>
+	  <input  placeholder="job title" type="text" ng-model="jobtitle" />
+	  <input placeholder="tedious task" type="text" ng-model="tedioustask" />
+          <input  placeholder="dirty task" type="text"  ng-model="dirtytask""/>
+          <input placeholder="useless skill" type="text" ng-model="uselessskill" />
+          <input  placeholder="obnoxious celebrity" type="text"  ng-model="obnoxiouscelebrity""/>
+          <input  placeholder="celebrity" type="text"  ng-model="celebrity" />
+          <input placeholder="huge number" type="text" ng-model="hugenumber" />
+          <input placeholder="adjective" type="text" ng-model="adjective" />
 	</p>
 	</div> <!-- ENDS .inner-row -->
 	</section>
 
-        <section id="story">
+        <section id="story" >
           <div class="inner-row">
 	    <p>
-	      <span class="blank">{{madlibs.femalename}}</span> was a  <span class="blank">{{madlibs.jobtitle}}</span> who loved
-	      technology. Although she loved parts of her job, she absolutely hated  <span class="blank">{{madlibs.tedioustask}}</span>
-	      and  <span class="blank">{{madlibs.dirtytask}}</span>.  So  <span class="blank">{{madlibs.femalename}}</span> met with
-	      her life mentor  <span class="blank">{{celebrity}}</span> who told her to learn how to <span>{{madlibs.uselessskill}}</span>
+	      <span class="blank">{{femalename}}</span> was a  <span class="blank">{{jobtitle}}</span> who loved
+	      technology. Although she loved parts of her job, she absolutely hated  <span class="blank">{{tedioustask}}</span>
+	      and  <span class="blank">{{dirtytask}}</span>.  So  <span class="blank">{{femalename}}</span> met with
+	      her life mentor  <span class="blank">{{celebrity}}</span> who told her to learn how to <span>{{uselessskill}}</span>
 	      with <a href="http://thinkful.com" class="link-thinkful" target="_blank">Thinkful</a> .
 	    </p>
 	    <p>
 	      <a href="http://thinkful.com" class="link-thinkful" target="_blank">Thinkful</a> didn't offer  a course on
-	      <span class="blank">{{madlibs.uselessskill}}</span> so she studied programming instead.	      
+	      <span class="blank">{{uselessskill}}</span> so she studied programming instead.	      
 	    </p>
 	    <p>
-	      What a great decision! With her new skills  <span class="blank">{{madlibs.femalename}}</span> built a
-	      <span class="blank">{{madlibs.adjective}}</span> robot named  <span class="blank">{{madlibs.obnoxiouscelebrity}}</span>
-	      that only not only loved  <span class="blank">{{madlibs.dirtytask}}</span> but did it
-	      <span class="blank">{{madlibs.hugenumber}}</span> times faster.
+	      What a great decision! With her new skills  <span class="blank">{{femalename}}</span> built a
+	      <span class="blank">{{adjective}}</span> robot named  <span class="blank">{{obnoxiouscelebrity}}</span>
+	      that only not only loved  <span class="blank">{{dirtytask}}</span> but did it
+	      <span class="blank">{{hugenumber}}</span> times faster.
 	    </p>
 	  </div>
         </section><!-- ENDS #story -->
+
 	
       </section>  <!-- main-content ends -->
-
       <footer id="page-footer">
         <div class="inner-row">
 	  <p>
@@ -81,3 +80,4 @@
     </div>  <!-- outer-wrapper ends -->
   </body>
 </html>
+
